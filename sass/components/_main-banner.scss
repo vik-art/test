@@ -1,0 +1,44 @@
+.main-banner {
+  width: 1920px;
+  height: 500px;
+  background-image: url(../img/main-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  padding-top: 153px;
+  color: $secondary-text-color;
+  h1 {
+    margin-bottom: 10px;
+    font-size: 57px;
+    line-height: 1.2;
+    font-family: $main-font;
+    position: relative;
+  }
+  p {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-top: 15px;
+  }
+}
+h1::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background-color: $secondary-text-color;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.to-order {
+  display: inline-block;
+  padding: 12px 22px;
+  margin-top: 27px;
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 1.2;
+  background-color: $accent-color;
+  color: $secondary-text-color;
+}

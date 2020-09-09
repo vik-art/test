@@ -4,11 +4,11 @@
   padding-bottom: 17px;
   padding-left: 375px;
   padding-right: 375px;
-  font-family: Clear-Sans;
+  font-family: $main-font;
   font-size: 16px;
   line-height: 1.2;
   text-transform: uppercase;
-  color: #3a4047;
+  color: $primary-text-color;
   display: flex;
 }
 .navigation {
@@ -16,12 +16,12 @@
   display: flex;
   justify-content: space-between;
   a {
-    color: #3a4047;
+    color: $primary-text-color;
     position: relative;
     line-height: 1;
     &:hover,
     &:focus {
-      color: #1ab0ce;
+      color: $accent-color;
     }
   }
 }
@@ -33,7 +33,7 @@
   left: 0;
   width: 0;
   height: 1px;
-  background-color: #1ab0ce;
+  background-color: $accent-color;
   transition: width 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 .menu-link:hover::before,

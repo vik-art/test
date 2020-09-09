@@ -1,6 +1,8 @@
 @font-face {
   font-family: Clear-Sans;
-  src: url(./fonts/clearsans.ttf);
+  src: url(..//fonts/ClearSans.eot);
+  src: url(../fonts/ClearSans.woff);
+  src: url(../fonts/ClearSans.ttf);
 }
 
 a {
@@ -189,5 +191,55 @@ button {
 
 .search {
   margin-left: 58px;
+}
+
+.main-banner {
+  width: 1920px;
+  height: 500px;
+  background-image: url(../img/main-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  padding-top: 153px;
+  color: #ffffff;
+}
+
+.main-banner h1 {
+  margin-bottom: 10px;
+  font-size: 57px;
+  line-height: 1.2;
+  font-family: Clear-Sans;
+  position: relative;
+}
+
+.main-banner p {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-top: 15px;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.to-order {
+  display: inline-block;
+  padding: 12px 22px;
+  margin-top: 27px;
+  font-family: Clear-Sans;
+  font-size: 16px;
+  line-height: 1.2;
+  background-color: #1ab0ce;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
