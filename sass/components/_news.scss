@@ -1,0 +1,31 @@
+.news {
+  @extend %container;
+  h2 {
+    @extend %headling;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 50px;
+  }
+}
+
+.news-item {
+  display: flex;
+  margin: -8px;
+  li {
+    width: calc((100% - 3 * 16px) / 3);
+    padding: 29px 15px;
+    margin: 8px;
+    &:hover,
+    &:focus {
+      box-shadow: 0px -1px 0px #1ab0ce, 0px 14px 24px rgba(0, 0, 0, 0.05);
+      color: $accent-color;
+    }
+  }
+}
+.date {
+  font-size: 14px;
+  line-height: 1.1;
+  color: #bec7d1;
+  margin-bottom: 15px;
+  text-align: center;
+}

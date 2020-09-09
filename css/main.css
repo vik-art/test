@@ -1,11 +1,11 @@
-.products h2 {
+.products h2, .news h2, .about-us h2 {
   font-family: Clear-Sans;
   font-size: 36px;
   line-height: 1.2;
   color: #3a4047;
 }
 
-.info-about-company, .menu, .products {
+.info-about-company, .menu, .products, .news, .about-us {
   width: 1920px;
   padding-left: 375px;
   padding-right: 375px;
@@ -257,6 +257,8 @@ h1::after {
 .products {
   padding-top: 29px;
   font-family: Clear-Sans;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .products h2 {
@@ -272,14 +274,11 @@ h1::after {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin: -15px;
 }
 
 .product-item .first-item {
-  width: calc((100% - 6 * 15) / 2);
+  width: calc((100% - 6 * 15px) / 2);
   margin: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -289,6 +288,9 @@ h1::after {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
   padding: 25px;
+  color: #3a4047;
+  font-size: 14px;
+  line-height: 1.1;
 }
 
 .first-item > img {
@@ -311,5 +313,64 @@ h1::after {
 
 .second-item li:not(:last-child) {
   margin-right: 20px;
+}
+
+.news h2 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+
+.news-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -8px;
+}
+
+.news-item li {
+  width: calc((100% - 3 * 16px) / 3);
+  padding: 29px 15px;
+  margin: 8px;
+}
+
+.news-item li:hover, .news-item li:focus {
+  -webkit-box-shadow: 0px -1px 0px #1ab0ce, 0px 14px 24px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px -1px 0px #1ab0ce, 0px 14px 24px rgba(0, 0, 0, 0.05);
+  color: #1ab0ce;
+}
+
+.date {
+  font-size: 14px;
+  line-height: 1.1;
+  color: #bec7d1;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.about-us {
+  color: #3a4047;
+  border-bottom: 1px solid #e8edf2;
+}
+
+.about-us h2 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 13px;
+}
+
+.about-us h3 {
+  text-align: center;
+  margin-bottom: 34px;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.about-us p {
+  text-align: justify;
+}
+
+.about-us p:last-child {
+  margin-bottom: 32px;
 }
 /*# sourceMappingURL=main.css.map */
