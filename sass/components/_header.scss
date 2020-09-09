@@ -1,0 +1,71 @@
+.info-about-company {
+  font-family: Clear-Sans, sans-serif;
+  width: 1920px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+.information {
+  padding-left: 376px;
+  padding-right: 376px;
+  padding-top: 17px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-link {
+  display: block;
+  margin-right: 64px;
+}
+.additional-info {
+  display: flex;
+  color: #3a4047;
+  justify-content: space-between;
+  width: 755px;
+  p {
+    width: 375px;
+
+    margin-bottom: 11px;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  a {
+    margin-top: 8px;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 1.1;
+    color: #3a4047;
+    text-decoration: underline;
+  }
+}
+.contacts {
+  display: flex;
+  justify-content: space-around;
+}
+.social {
+  display: flex;
+  svg:first-child {
+    margin-right: 21px;
+  }
+  p {
+    margin-left: 9px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #3a4047;
+  }
+}
+.open-contacts {
+  margin-left: 6px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+.user {
+  margin-left: 50px;
+}
+.card {
+  margin-left: 19px;
+}
