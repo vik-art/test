@@ -1,0 +1,11 @@
+%headling {
+  font-family: $main-font;
+  font-size: 36px;
+  line-height: 1.2;
+  color: $primary-text-color;
+}
+%container {
+  width: 1920px;
+  padding-left: 375px;
+  padding-right: 375px;
+}

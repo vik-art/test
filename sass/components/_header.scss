@@ -1,12 +1,10 @@
 .info-about-company {
   font-family: $main-font, sans-serif;
-  width: 1920px;
+  @extend %container;
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
 }
 .information {
-  padding-left: 376px;
-  padding-right: 376px;
   padding-top: 17px;
   padding-bottom: 20px;
   margin-left: auto;
