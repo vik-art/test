@@ -1,5 +1,5 @@
 .products h2, .news h2, .about-us h2 {
-  font-family: Clear-Sans;
+  font-family: Clear-Sans, sans-serif;
   font-size: 36px;
   line-height: 1.2;
   color: #3a4047;
@@ -53,7 +53,7 @@ img {
 }
 
 .info-about-company {
-  font-family: Clear-Sans, sans-serif;
+  font-family: Clear-Sans, sans-serif, sans-serif;
   background: #ffffff;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
@@ -152,7 +152,7 @@ img {
 .menu {
   padding-top: 17px;
   padding-bottom: 17px;
-  font-family: Clear-Sans;
+  font-family: Clear-Sans, sans-serif;
   font-size: 16px;
   line-height: 1.2;
   text-transform: uppercase;
@@ -220,7 +220,7 @@ img {
   margin-bottom: 10px;
   font-size: 57px;
   line-height: 1.2;
-  font-family: Clear-Sans;
+  font-family: Clear-Sans, sans-serif;
   position: relative;
 }
 
@@ -247,7 +247,7 @@ h1::after {
   display: inline-block;
   padding: 12px 22px;
   margin-top: 27px;
-  font-family: Clear-Sans;
+  font-family: Clear-Sans, sans-serif;
   font-size: 16px;
   line-height: 1.2;
   background-color: #1ab0ce;
@@ -256,7 +256,7 @@ h1::after {
 
 .products {
   padding-top: 29px;
-  font-family: Clear-Sans;
+  font-family: Clear-Sans, sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
@@ -330,6 +330,7 @@ h1::after {
 
 .news-item li {
   width: calc((100% - 3 * 16px) / 3);
+  height: 170px;
   padding: 29px 15px;
   margin: 8px;
 }
@@ -340,11 +341,34 @@ h1::after {
   color: #1ab0ce;
 }
 
+.news-info {
+  color: #3a4047;
+}
+
+.news-info:hover, .news-info:focus {
+  color: #1ab0ce;
+  text-decoration: underline;
+}
+
 .date {
   font-size: 14px;
   line-height: 1.1;
   color: #bec7d1;
   margin-bottom: 15px;
+  text-align: center;
+}
+
+.watch-all {
+  margin-top: 51px;
+  margin-bottom: 49px;
+  display: inline-block;
+  padding: 6px 21px 9px 21px;
+  text-align: center;
+  color: #1ab0ce;
+  border: 1px solid #1ab0ce;
+}
+
+.watch-link {
   text-align: center;
 }
 

@@ -13,6 +13,7 @@
   margin: -8px;
   li {
     width: calc((100% - 3 * 16px) / 3);
+    height: 170px;
     padding: 29px 15px;
     margin: 8px;
     &:hover,
@@ -22,10 +23,30 @@
     }
   }
 }
+.news-info {
+  color: $primary-text-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    text-decoration: underline;
+  }
+}
 .date {
   font-size: 14px;
   line-height: 1.1;
   color: #bec7d1;
   margin-bottom: 15px;
+  text-align: center;
+}
+.watch-all {
+  margin-top: 51px;
+  margin-bottom: 49px;
+  display: inline-block;
+  padding: 6px 21px 9px 21px;
+  text-align: center;
+  color: $accent-color;
+  border: 1px solid $accent-color;
+}
+.watch-link {
   text-align: center;
 }
