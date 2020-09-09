@@ -51,9 +51,22 @@
                 <use href="./img/symbol-defs.svg#icon-phone"></use>
               </svg>
               <p>(044) 345-40-42</p>
-              <button class="open-contacts">
+              <button class="open-contacts" type="button" aria-label="Кнопка открытия меню контактов" aria-expanded="false" data-menu-button>
                 <img src="./img/Shape.png" />
               </button>
+              <div class="hidden-contacs" data-menu>
+                <ul>
+                  <li>
+                    <img src="./img/image.png" alt="Водафон">(099) 445-54-18
+                  </li>
+                  <li>
+                    <img src="./img/image (1).png" alt="Киевстар">(096) 497-78-03
+                  </li>
+                  <li>
+                    <img src="./img/image (2).png" alt="Лайфсел">(063) 435-16-81
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -81,6 +94,14 @@
         <h1>Оперативная печать полиграфии от 1 дня!</h1>
         <p>Доставка в любой город Украины</p>
         <a href="#" class="to-order">Сделать заказ</a>
+        <div class="callback">
+          <div class="callback-text">
+          <svg width="23" height="23">
+            <use href="./img/symbol-defs.svg#icon-phone-white"></use>
+          </svg>
+         Перезвоните мне сейчас!
+         </div>
+        </div>
       </section>
       <section class="products">
         <h2>Продукция</h2>
@@ -232,5 +253,6 @@
         </li>
       </div>
     </footer>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .products h2, .news h2, .about-us h2 {
   font-family: Clear-Sans, sans-serif;
   font-size: 36px;
@@ -116,6 +117,7 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .social svg:first-child {
@@ -137,6 +139,8 @@ button {
   border-radius: 10px;
   width: 20px;
   height: 20px;
+  outline: none;
+  cursor: pointer;
 }
 
 .user {
@@ -145,6 +149,50 @@ button {
 
 .card {
   margin-left: 19px;
+}
+
+/*--------------------------открывашка---------------------------*/
+.hidden-contacs {
+  display: none;
+}
+
+.hidden-contacs img {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.hidden-contacs li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hidden-contacs li:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+.hidden-contacs.is-open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 220px;
+  position: absolute;
+  top: 45px;
+  right: 25px;
+  background-color: #ffffff;
+  z-index: 10;
+  padding: 30px;
+}
+
+.open-contacts.is-open {
+  -webkit-transform: matrix(0, 1, 1, 0, 0, 0);
+          transform: matrix(0, 1, 1, 0, 0, 0);
 }
 
 .menu {
@@ -250,6 +298,23 @@ h1::after {
   line-height: 1.2;
   background-color: #1ab0ce;
   color: #ffffff;
+}
+
+.callback-text {
+  display: table-cell;
+  vertical-align: middle;
+  width: 108px;
+  height: 108px;
+  background-color: #1ab0ce;
+  font-size: 14px;
+  font-family: Clear-Sans, sans-serif;
+  line-height: 1.1;
+  border-radius: 50%;
+}
+
+.callback {
+  position: fixed;
+  right: 10%;
 }
 
 .products {
