@@ -314,7 +314,7 @@ h1::after {
 
 .callback {
   position: fixed;
-  right: 10%;
+  right: 12%;
 }
 
 .products {
@@ -394,7 +394,6 @@ h1::after {
 .news-item li {
   width: calc((100% - 3 * 16px) / 3);
   height: 170px;
-  padding: 29px 15px;
   margin: 8px;
 }
 
@@ -404,13 +403,18 @@ h1::after {
   color: #1ab0ce;
 }
 
-.news-info {
-  color: #3a4047;
+.news-item a {
+  display: block;
+  padding: 29px 15px;
 }
 
-.news-info:hover, .news-info:focus {
+.news-item a:hover .news-info {
   color: #1ab0ce;
   text-decoration: underline;
+}
+
+.news-info {
+  color: #3a4047;
 }
 
 .date {

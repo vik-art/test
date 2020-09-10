@@ -2,6 +2,7 @@
   @extend %container;
   color: $primary-text-color;
   border-bottom: 1px solid #e8edf2;
+
   h2 {
     @extend %headling;
     text-align: center;
