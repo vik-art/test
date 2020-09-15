@@ -81,6 +81,10 @@ h1::after {
 }
 .callback {
   position: fixed;
+  @media screen and (max-width: 479px) {
+    right: 5%;
+    bottom: 3%;
+  }
   right: 10%;
   bottom: 15%;
 }
