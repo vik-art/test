@@ -1,24 +1,39 @@
 .main-banner {
-  width: 1920px;
+  width: 480px;
   height: 500px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(../img/main-banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   text-align: center;
-  padding-top: 153px;
+  padding-top: 157px;
   color: $secondary-text-color;
   h1 {
     margin-bottom: 10px;
-    font-size: 57px;
+    font-size: 40px;
     line-height: 1.2;
     font-family: $main-font;
     position: relative;
+    @media screen and(min-width: 1200px) {
+      font-size: 57px;
+    }
   }
   p {
     font-size: 24px;
     line-height: 1.2;
     margin-top: 15px;
+  }
+  @media screen and(min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and(min-width: 1200px) {
+    width: 100%;
+  }
+  @media screen and(min-width: 1920px) {
+    padding-right: 375px;
+    padding-left: 375px;
   }
 }
 h1::after {
@@ -55,5 +70,6 @@ h1::after {
 }
 .callback {
   position: fixed;
-  right: 12%;
+  right: 10%;
+  bottom: 10%;
 }

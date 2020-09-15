@@ -1,32 +1,33 @@
-@font-face {
-  font-family: Clear-Sans;
-  src: url(../fonts/ClearSans.eot);
-  src: url(../fonts/ClearSans.woff);
-  src: url(../fonts/ClearSans.ttf);
-}
-a {
-  display: block;
-  text-decoration: none;
+body {
   margin: 0;
   padding: 0;
 }
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-p,
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+p,
+ul {
   margin: 0;
   padding: 0;
 }
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
 button {
-  border: none;
-  background-color: transparent;
   padding: 0;
   margin: 0;
+  border: none;
+  background: transparent;
+}
+@font-face {
+  font-family: Clear-sans;
+  src: url("../fonts/ClearSans.eot");
+  src: url("../fonts/ClearSans.woff");
+  src: url("../fonts/ClearSans.ttf");
 }

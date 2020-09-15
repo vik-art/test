@@ -1,11 +1,12 @@
+%font-style {
+  font-family: Clear-sans, sans-serif;
+  font-size: 16px;
+  line-height: 1.1;
+  color: $primary-text-color;
+}
 %headling {
   font-family: $main-font;
   font-size: 36px;
   line-height: 1.2;
   color: $primary-text-color;
-}
-%container {
-  width: 1920px;
-  padding-left: 375px;
-  padding-right: 375px;
 }
