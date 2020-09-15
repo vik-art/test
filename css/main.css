@@ -442,7 +442,7 @@ h1::after {
 .callback {
   position: fixed;
   right: 10%;
-  bottom: 10%;
+  bottom: 15%;
 }
 
 .news {
