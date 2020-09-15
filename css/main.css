@@ -52,12 +52,17 @@ button {
 }
 
 .information {
-  width: 480px;
   padding: 15px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   position: relative;
+}
+
+@media screen and (min-width: 480px) {
+  .information {
+    width: 480px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -351,7 +356,6 @@ button {
 }
 
 .main-banner {
-  width: 480px;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -366,10 +370,16 @@ button {
 
 .main-banner h1 {
   margin-bottom: 10px;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.2;
   font-family: Clear-sans;
   position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .main-banner h1 {
+    font-size: 40px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -379,9 +389,27 @@ button {
 }
 
 .main-banner p {
-  font-size: 24px;
+  font-size: 14px;
   line-height: 1.2;
   margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-banner p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-banner p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .main-banner {
+    width: 480px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -446,7 +474,6 @@ h1::after {
 }
 
 .news {
-  width: 480px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -455,6 +482,12 @@ h1::after {
   text-align: center;
   margin-top: 32px;
   margin-bottom: 50px;
+}
+
+@media screen and (min-width: 480px) {
+  .news {
+    width: 480px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -477,12 +510,11 @@ h1::after {
 }
 
 .news-item {
-  width: 480px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .news-item {
-    width: 768px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -550,7 +582,6 @@ h1::after {
 }
 
 .products {
-  width: 480px;
   padding-top: 29px;
   font-family: Clear-sans;
   margin-left: auto;
@@ -560,6 +591,12 @@ h1::after {
 .products h2 {
   text-align: center;
   margin-bottom: 44px;
+}
+
+@media screen and (min-width: 480px) {
+  .products {
+    width: 480px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -583,9 +620,12 @@ h1::after {
   }
 }
 
+.product-item {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .product-item {
-    width: 768px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -603,7 +643,6 @@ h1::after {
 
 @media screen and (min-width: 1200px) {
   .product-item {
-    width: 100%;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     -ms-flex-pack: distribute;
@@ -630,6 +669,15 @@ h1::after {
   color: #3a4047;
   font-size: 14px;
   line-height: 1.1;
+}
+
+@media screen and (max-width: 479px) {
+  .product-item .first-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -676,13 +724,18 @@ h1::after {
 }
 
 .about-us {
-  width: 480px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   color: #3a4047;
   border-bottom: 1px solid #e8edf2;
+}
+
+@media screen and (min-width: 480px) {
+  .about-us {
+    width: 480px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -726,7 +779,6 @@ h1::after {
 }
 
 .footer {
-  width: 480px;
   background-color: #f7f7f7;
   -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.05);
           box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.05);
@@ -749,6 +801,12 @@ h1::after {
           justify-content: center;
   color: #3a4047;
   font-family: Clear-sans;
+}
+
+@media screen and (min-width: 480px) {
+  .footer {
+    width: 480px;
+  }
 }
 
 @media screen and (min-width: 768px) {

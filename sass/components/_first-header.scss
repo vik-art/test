@@ -1,10 +1,12 @@
 .information {
-  width: 480px;
   padding: 15px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  @media screen and(min-width: 480px) {
+    width: 480px;
+  }
   @media screen and(min-width: 768px) {
     width: 768px;
     display: flex;
