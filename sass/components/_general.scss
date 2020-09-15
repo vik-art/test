@@ -1,3 +1,10 @@
+
+@font-face {
+  font-family: Clear-Sans;
+  src: url(../fonts/ClearSans.eot);
+  src: url(../fonts/ClearSans.woff);
+  src: url(../fonts/ClearSans.ttf);
+}
 body {
   margin: 0;
   padding: 0;
@@ -25,9 +32,4 @@ button {
   border: none;
   background: transparent;
 }
-@font-face {
-  font-family: Clear-sans;
-  src: url("../fonts/ClearSans.eot");
-  src: url("../fonts/ClearSans.woff");
-  src: url("../fonts/ClearSans.ttf");
-}
+
