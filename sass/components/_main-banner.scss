@@ -68,8 +68,10 @@ h1::after {
   color: $secondary-text-color;
 }
 .callback-text {
-  display: table-cell;
-  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 108px;
   height: 108px;
   background-color: $accent-color;
