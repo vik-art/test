@@ -12,6 +12,13 @@
   color: #3a4047;
 }
 
+@font-face {
+  font-family: Clear-Sans;
+  src: url(../fonts/ClearSans.eot);
+  src: url(../fonts/ClearSans.woff);
+  src: url(../fonts/ClearSans.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -42,13 +49,6 @@ button {
   margin: 0;
   border: none;
   background: transparent;
-}
-
-@font-face {
-  font-family: Clear-sans;
-  src: url("../fonts/ClearSans.eot");
-  src: url("../fonts/ClearSans.woff");
-  src: url("../fonts/ClearSans.ttf");
 }
 
 .information {
@@ -471,6 +471,13 @@ h1::after {
   position: fixed;
   right: 10%;
   bottom: 15%;
+}
+
+@media screen and (max-width: 479px) {
+  .callback {
+    right: 5%;
+    bottom: 3%;
+  }
 }
 
 .news {
