@@ -321,7 +321,6 @@ button {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-family: Clear-sans;
   font-size: 16px;
   line-height: 1.2;
   text-transform: uppercase;
@@ -372,7 +371,6 @@ button {
   margin-bottom: 10px;
   font-size: 30px;
   line-height: 1.2;
-  font-family: Clear-sans;
   position: relative;
 }
 
